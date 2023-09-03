@@ -1,0 +1,178 @@
+.cover {
+  height: 21rem;
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cover__box {
+  color: black;
+  height: 15rem;
+  margin: 0 8rem;
+  border-bottom: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.footer_name {
+  /* padding-left: 1rem; */
+  margin: 3rem;
+  width: 70%;
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.item {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  width: 30%;
+  color: black;
+  text-decoration: none;
+}
+
+.get_in_touch {
+  margin: 3rem;
+  width: 30%;
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+}
+
+.get_info {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.copy_right_sections {
+  color: black;
+  margin: 0 8rem;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.copy_right {
+  margin: 2rem;
+  width: 70%;
+}
+
+.socials {
+  width: 30%;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.get_social {
+  margin-right: 0.5rem;
+}
+
+.linkedIn {
+  /* height: auto; */
+  padding: 0;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 40rem) {
+  .cover {
+    /* margin: 0; */
+    /* width: 100%; */
+    width: 100%;
+    height: 21rem;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+  }
+  .cover__box {
+    color: black;
+    height: 15rem;
+    margin: 0 0.5rem;
+    /* border-bottom: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+  }
+
+  .footer_name {
+    /* padding-left: 1rem; */
+    /* margin: 3rem; */
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    margin: 0.1px;
+    padding: 0;
+    width: 100%;
+    color: black;
+  }
+
+  .item {
+    font-size: 0.8rem;
+    width: auto;
+    color: black;
+  }
+
+  .get_in_touch {
+    margin-top: 3rem;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+  }
+
+  .get_info {
+    margin: 0.5rem 0;
+    font-size: 0.7rem;
+  }
+
+  .copy_right_sections {
+    color: black;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .copy_right {
+    margin: 1.5rem;
+    font-size: 0.7rem;
+    width: 70%;
+  }
+
+  .socials {
+    width: 30%;
+    margin: 2rem;
+    display: flex;
+    font-size: 0.8rem;
+    flex-direction: row;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+  }
+
+  .get_social {
+    margin-right: 0.5rem;
+  }
+  .icon {
+    padding: 0 0.5rem;
+  }
+}

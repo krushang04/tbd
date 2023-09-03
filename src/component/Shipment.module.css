@@ -1,0 +1,152 @@
+.shipments {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+}
+
+.cover {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(248, 249, 250);
+  height: 22rem;
+}
+
+.img_div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.img_self {
+  height: auto;
+  width: 80%;
+  padding: 2rem;
+}
+
+.content_div {
+  padding: 1rem;
+  width: 50%;
+  overflow: auto;
+}
+
+.content_heading {
+  font-size: 1.5rem;
+  margin-top: 0.58rem;
+  margin-bottom: 1rem;
+}
+
+.read_more {
+  margin: 2rem;
+  margin-left: 0;
+  padding: 0.825rem;
+  border: none;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.showContent {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.eachContents {
+  width: 31%;
+  padding: 0.5rem;
+  border-bottom: 5px solid rgb(22, 191, 140);
+  margin-left: 0.5rem;
+  background-color: rgb(248, 249, 250);
+  color: rgb(22, 191, 140);
+  height: 16rem;
+  font-size: 1rem;
+  overflow: auto;
+}
+
+.contentHeading {
+  padding-top: 1rem;
+  height: 2.5rem;
+}
+
+.eachContent {
+  color: black;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+@media (max-width: 40rem) {
+  .cover {
+    /* width: 100%; */
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 249, 250);
+    height: 42rem;
+    /* max-height: auto; */
+  }
+
+  .img_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img_self {
+    height: auto;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .content_div {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .content_heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .read_more {
+    margin: 2rem;
+    margin-left: 0;
+    padding: 0.825rem;
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+  }
+
+  .showContent {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eachContents {
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: 5px solid rgb(22, 191, 140);
+    margin-left: 0.5rem;
+    background-color: rgb(248, 249, 250);
+    color: rgb(22, 191, 140);
+    height: 16rem;
+    font-size: 1rem;
+    overflow: auto;
+    margin-bottom: 1rem;
+  }
+
+  .contentHeading {
+    padding-top: 1rem;
+    height: 1.5rem;
+    /* position: fixed;
+    z-index: 10; */
+    margin-bottom: 2rem;
+  }
+
+  .eachContent {
+    color: black;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+}
